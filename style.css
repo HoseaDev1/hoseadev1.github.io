@@ -137,12 +137,28 @@
     .firstname{
         color: white;
         font-size: 3vw;
+        display:block;
+        -khtml-user-select:none;
+        -webkit-user-select:none;
+        -moz-user-select:none;
+        -ms-user-select: none;
+        -o-user-select:none;
+        user-select:none;
+        unselectable:on;
     }
     
     .lastname{
         color: crimson;
         font-size: 2vw;
         padding-left: 4px;
+        display:block;
+        -khtml-user-select:none;
+        -webkit-user-select:none;
+        -moz-user-select:none;
+        -ms-user-select: none;
+        -o-user-select:none;
+        user-select:none;
+        unselectable:on;
     }
     
     .navigation{
