@@ -31,7 +31,7 @@
 
 .firstname{
     color: white;
-    font-size: 2.5vw;
+    font-size: 4vw;
     display:block;
     -khtml-user-select:none;
     -webkit-user-select:none;
@@ -44,7 +44,7 @@
 
 .lastname{
     color: crimson;
-    font-size: 2vw;
+    font-size: 2.5vw;
     padding-left: 4px;
     display:block;
     -khtml-user-select:none;
@@ -137,28 +137,12 @@
     .firstname{
         color: white;
         font-size: 4vw;
-        display:block;
-        -khtml-user-select:none;
-        -webkit-user-select:none;
-        -moz-user-select:none;
-        -ms-user-select: none;
-        -o-user-select:none;
-        user-select:none;
-        unselectable:on;
     }
     
     .lastname{
         color: crimson;
         font-size: 2.5vw;
         padding-left: 4px;
-        display:block;
-        -khtml-user-select:none;
-        -webkit-user-select:none;
-        -moz-user-select:none;
-        -ms-user-select: none;
-        -o-user-select:none;
-        user-select:none;
-        unselectable:on;
     }
     
     .navigation{
@@ -194,6 +178,95 @@
         width: 55px;
         height: 55px;
         border-radius: 55px;
+        transition: all  .3s ease-in-out;
+    }
+    
+    .active{
+        background-color: crimson;
+        color: white;
+        padding: 15px;
+    }
+    
+    .active:hover{
+        color: white !important;
+    }
+}
+@media screen and (max-width: 400px){
+    *, html, body {
+        margin: 0;
+        padding: 0;
+        font-family: "Roboto", sans-serif;
+    }
+    .fContainer{
+        display: flex;
+        width: 100%;
+        height: auto;
+        background-color: lightslategray;
+    }
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 13px;
+        padding: 8px;
+        width: 100%;
+        height: auto;
+        background-color: #222;
+        box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+    }
+    
+    .brand{
+        display: flex;
+        flex-direction: row;
+        font-size: 1.5em;
+        padding: 13px;
+        text-transform: capitalize;
+    }
+    
+    .firstname{
+        color: white;
+        font-size: 3vw;
+    }
+    
+    .lastname{
+        color: crimson;
+        font-size: 2vw;
+        padding-left: 4px;
+    }
+    
+    .navigation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .navigation > li{
+        list-style-type: none;
+        padding: 8px;
+    }
+    
+    .navigation>li>a{
+        color: white;
+        font-size: 10px;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    
+    .navigation>li>a:hover{
+        color: crimson;
+        transition: all  .3s ease-in-out;
+    }
+    
+    .navigation>li>img{
+        width: 45px;
+        height: 45px;
+        border-radius: 45px;
+    }
+    
+    .navigation>li>img:hover{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
         transition: all  .3s ease-in-out;
     }
     
