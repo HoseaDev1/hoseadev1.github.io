@@ -102,7 +102,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        font-size: 20px;
+        font-size: 15px;
         padding: 10px;
         width: 100%;
         height: auto;
@@ -120,7 +120,7 @@
     
     .firstname{
         color: white;
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
     
     .lastname{
