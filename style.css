@@ -136,7 +136,7 @@
     
     .firstname{
         color: white;
-        font-size: 3vw;
+        font-size: 4vw;
         display:block;
         -khtml-user-select:none;
         -webkit-user-select:none;
@@ -149,7 +149,7 @@
     
     .lastname{
         color: crimson;
-        font-size: 2vw;
+        font-size: 2.5vw;
         padding-left: 4px;
         display:block;
         -khtml-user-select:none;
