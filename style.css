@@ -131,7 +131,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        font-size: 13px;
+        font-size: 15px;
         padding: 10px;
         width: 100%;
         height: auto;
@@ -149,7 +149,7 @@
     
     .firstname{
         color: white;
-        font-size: 3.5vw;
+        font-size: 3vw;
     }
     
     .lastname{
@@ -171,7 +171,7 @@
     
     .navigation>li>a{
         color: white;
-        font-size: 15px;
+        font-size: 12px;
         text-decoration: none;
         text-transform: capitalize;
     }
@@ -231,7 +231,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        font-size: 10px;
+        font-size: 13px;
         padding: 15px;
         width: 100%;
         height: auto;
