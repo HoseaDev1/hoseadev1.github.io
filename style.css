@@ -144,7 +144,7 @@
     color: white;
     display: flex;
     width: 100%;
-    height: 30vh;
+    height: 15vh;
     justify-content: center;
     align-items: center;
 }
@@ -155,6 +155,12 @@
     height: 75vh;
     justify-content: center;
     align-items: center;
+}
+
+.product-body {
+    height: 75vh;
+    background-color: #333;
+    color: white;
 }
 
 
@@ -299,6 +305,12 @@
     justify-content: center;
     align-items: center;
 }
+
+.product-body {
+    height: 80vh;
+    background-color: #333;
+    color: white;
+}
 }
 @media screen and (max-width: 400px){
     *, html, body {
@@ -439,6 +451,12 @@
     height: 67vh;
     justify-content: center;
     align-items: center;
+}
+
+.product-body {
+    height: 75vh;
+    background-color: #333;
+    color: white;
 }
 
 @media screen and (max-width: 350px){
