@@ -163,6 +163,21 @@
     color: white;
 }
 
+
+@media screen and (max-width: 1300px){
+    .profile-body {
+        font-size: 4vw;
+    }
+    
+    .body-welcome {
+        font-size: 2.5vw;
+    }
+    
+    .img-profile-body {
+        width: 20%;
+    }
+}
+
 @media screen and (max-width: 1000px){
     .profile-body {
         font-size: 4vw;
@@ -177,7 +192,7 @@
     }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
     .profile-body {
         font-size: 4vw;
     }
@@ -187,9 +202,51 @@
     }
     
     .img-profile-body {
-        width: 27%;
+        width: 40%;
     }
 }
+
+@media screen and (max-width: 850px){
+    .profile-body {
+        font-size: 4vw;
+    }
+    
+    .body-welcome {
+        font-size: 2.5vw;
+    }
+    
+    .img-profile-body {
+        width: 47%;
+    }
+}
+@media screen and (max-width: 810px){
+    .profile-body {
+        font-size: 4vw;
+    }
+    
+    .body-welcome {
+        font-size: 2.5vw;
+    }
+    
+    .img-profile-body {
+        width: 52%;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .profile-body {
+        font-size: 4vw;
+    }
+    
+    .body-welcome {
+        font-size: 2.5vw;
+    }
+    
+    .img-profile-body {
+        width: 42%;
+    }
+}
+
 
 @media screen and (max-width: 600px){
     *, html, body {
@@ -337,6 +394,19 @@
     background-color: #333;
     color: white;
 }
+
+@media screen and (max-width: 450px){
+    .profile-body {
+        font-size: 4vw;
+    }
+    
+    .body-welcome {
+        font-size: 4vw;
+    }
+    
+    .img-profile-body {
+        width: 72%;
+    }
 }
 @media screen and (max-width: 400px){
     *, html, body {
@@ -458,7 +528,7 @@
 }
 
 .img-profile-body {
-    width: 58%;
+    width: 70%;
 }
 
 .footer {
@@ -506,5 +576,5 @@
     justify-content: center;
     align-items: center;
 }
-
+}
 }
