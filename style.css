@@ -152,7 +152,7 @@
 .biografi {
     background-color: #333;
     color: white;
-    height: 120vh;
+    height: 75vh;
     justify-content: center;
     align-items: center;
 }
@@ -291,6 +291,14 @@
     justify-content: center;
     align-items: center;
 }
+
+.biografi {
+    background-color: #333;
+    color: white;
+    height: 75vh;
+    justify-content: center;
+    align-items: center;
+}
 }
 @media screen and (max-width: 400px){
     *, html, body {
@@ -425,6 +433,14 @@
     align-items: center;
 }
 
+.biografi {
+    background-color: #333;
+    color: white;
+    height: 75vh;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 350px){
     .profile-body {
         font-size: 4vw;
@@ -437,5 +453,13 @@
     .img-profile-body {
         width: 65%;
     }
+}
+
+.biografi {
+    background-color: #333;
+    color: white;
+    height: 75vh;
+    justify-content: center;
+    align-items: center;
 }
 }
