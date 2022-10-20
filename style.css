@@ -401,11 +401,11 @@
     }
     
     .body-welcome {
-        font-size: 4vw;
+        font-size: 4.5vw;
     }
     
     .img-profile-body {
-        width: 72%;
+        width: 71%;
     }
 }
 @media screen and (max-width: 400px){
@@ -555,6 +555,34 @@
     color: white;
 }
 
+@media screen and (max-width: 420px){
+    .profile-body {
+        font-size: 3.5vw;
+    }
+    
+    .body-welcome {
+        font-size: 3.3vw;
+    }
+    
+    .img-profile-body {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .profile-body {
+        font-size: 3.5vw;
+    }
+    
+    .body-welcome {
+        font-size: 3.3vw;
+    }
+    
+    .img-profile-body {
+        width: 80%;
+    }
+}
+
 @media screen and (max-width: 350px){
     .profile-body {
         font-size: 4vw;
@@ -575,6 +603,20 @@
     height: 70vh;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 320px){
+    .profile-body {
+        font-size: 4vw;
+    }
+    
+    .body-welcome {
+        font-size: 3.5vw;
+    }
+    
+    .img-profile-body {
+        width: 57%;
+    }
 }
 }
 }
